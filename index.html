@@ -1,0 +1,265 @@
+<!--Especifica que estamos trabajando un documento HTML-->
+<!DOCTYPE html>
+<!--Especifica el lenguaje que la cual trabajaremos en el documento-->
+<html lang="en">
+<!--Especificamos las rutas de los archivos externos de nuestro proyecto web-->
+<head>
+    <!--Especificamos que nuestro documento permita caracteres especiales-->
+    <meta charset="UTF-8">
+    <!--Especificamos que nuestro contenido se visualice en diferentes dispositivos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Especificamos el título de nuestro proyecto web-->
+    <title>Mi Primera Página Web</title>
+    <!--Enlace a la hoja de estilos externa de Boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Enlace a la hoja de estilos externa del CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!--Especifica el contenido de nuestro sitio web-->
+<body>
+    <header class="hero">
+        <nav class="nav__hero">
+            <!--Navegación del encabezado-->
+            <div class="container nav__container">
+                <div class="logo">
+                    <h2 class="logo__name">Alejo<span class="point">.</span></h2>
+                </div>
+                <!--Enlaces de navegación-->
+                <div class="links">
+                    <a href="#inicio" class="link">Inicio</a>
+                    <a href="#servicios" class="link">Servicios</a>
+                    <a href="#proyectos" class="link">Proyectos</a>
+                    <a href="#clientes" class="link">Clientes</a>
+                    <a href="#contacto" class="link link--active">Contacto</a>
+                </div>
+            </div>
+        </nav>
+        <!--Sección principal del encabezado-->
+        <section class="container hero__main" id="inicio">
+            <!--Textos y contenido destacado-->
+            <div class="hero__textos">
+                <h1 class="title">¡Hola! Soy Alejandro <span class="title--active">Desarrollador Junior Full-Stack</span></h1>
+                <p class="copy">Soy un apasionado desarrollador especializado en Java, dedicado a la creación de soluciones web innovadoras. <span class="copy__active">¡Te doy la bienvenida a mi portafolio!</span></p>
+                <a href="#" class="cta">VER PORTAFOLIO</a>
+            </div>
+            <!--Imagén del encabezado-->
+            <img src="img/camara.jpg"  class="mockup">
+        </section>
+    </header>
+    <!--Contenido Principal-->
+    <main>
+        <section class="services" id="servicios">
+            <div class="container">
+                <h2 class="subtitle">Lenguajes<span class="point">.</span></h2>
+                <p class="copy__section">Dominio de las siguientes tecnologias</p>
+            <!--Especifica que creará un contenedor para los articulos de los servicios-->
+            <article class="container-cards">
+                <div class="card">
+                    <img src="img/HTML 5 & CSS 3 Logos.jpeg" class="card__img">
+                    <div class="cards__text">
+                        <p class="card__list">Especialistas en</p>
+                        <h3 class="card__title">HTML y CSS<span class="point">.</span></h3>
+                        <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate fuga beatae, quibusdam, quod inventore quisquam voluptatem debitis excepturi aperiam eum consequuntur porro deleniti possimus ipsam recusandae ipsum sed explicabo!</p>
+                        <a href="#" class="card__button">Ver Proyectos</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/Java.jpeg" class="card__img">
+                    <div class="cards__text">
+                        <p class="card__list">Especialistas en</p>
+                        <h3 class="card__title">Java<span class="point">.</span></h3>
+                        <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate fuga beatae, quibusdam, quod inventore quisquam voluptatem debitis excepturi aperiam eum consequuntur porro deleniti possimus ipsam recusandae ipsum sed explicabo!</p>
+                        <a href="#" class="card__button">Ver Proyectos</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/JavaScript.jpeg" class="card__img">
+                    <div class="cards__text">
+                        <p class="card__list">Especialistas en</p>
+                        <h3 class="card__title">JavaScript<span class="point">.</span></h3>
+                        <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate fuga beatae, quibusdam, quod inventore quisquam voluptatem debitis excepturi aperiam eum consequuntur porro deleniti possimus ipsam recusandae ipsum sed explicabo!</p>
+                        <a href="#" class="card__button">Ver Proyectos</a>
+                    </div>
+                </div>
+            </article>
+          </div>
+        </section>
+        <!--Especifica la información de nuestros proyectos-->
+        <section class="projects container" id="proyectos">
+            <h2 class="subtitle__projects">Proyectos Recientes<span class="point">.</span></h2>
+            <p class="copy__section">Marcas reconocidas a nivel mundial con las que he tenido el provilegio de colaborar.</p>
+            <article class="container-bg">
+                <div class="card">
+                    <div class="cards__text">
+                    <h3 class="card__title">Diseño web<span class="point">.</span></h3>
+                    <p class="card__date">24 de Agosto 2023</p>
+                    <p class="card__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis reiciendis accusantium dicta quis natus qui voluptate aliquam dolores aut beatae eos a, rerum maiores autem provident soluta consequatur inventore expedita.</p>
+                    <a href="#" class="card__button">Comienza tu proyecto</a>
+                  </div>
+                </div>
+                <div class="background">
+                    <img src="img/camara.jpg" class="background__img">
+                    <div class="background__text">
+                        <h3 class="background__title">La educación en línea</h3>
+                        <p class="background__copy">La realidad aumentada transformará por completo la educación</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cards__text">
+                    <h3 class="card__title">Diseño web<span class="point">.</span></h3>
+                    <p class="card__date">24 de Agosto 2023</p>
+                    <p class="card__copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis reiciendis accusantium dicta quis natus qui voluptate aliquam dolores aut beatae eos a, rerum maiores autem provident soluta consequatur inventore expedita.</p>
+                    <a href="#" class="card__button">Comienza tu proyecto</a>
+                  </div>
+                </div>
+                <div class="background">
+                    <img src="img/desktop.jpg" class="background__img">
+                    <div class="background__text">
+                        <h3 class="background__title">La educación en línea</h3>
+                        <p class="background__copy">La realidad aumentada transformará por completo la educación</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!--Especifica la info de la sección de testimonios-->
+        <section class="testimony" id="clientes">
+            <div class="container">
+                <h2 class="subtitle">Clientes Satisfechos<span class="point">.</span></h2>
+                <p class="copy__section">Cientos de empresas confían en mi trabajo                           </p>
+
+                <div class="testimony-container">
+                    <div class="testimony__card">
+                        <img src="img/Pepito.jpg" class="testimony__img">
+                        <div class="testimony__copy">
+                            <i class='bx bxl-google testimony__logo'></i>
+                            <div class="testimony__info">
+                                <h3 class="testimony__name">Pepito Perez</h3>
+                                <p class="testimony__position">Director de Google</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimony__card">
+                        <img src="img/fulanita.jpg" class="testimony__img">
+                        <div class="testimony__copy">
+                            <i class='bx bxl-apple testimony__logo'></i>
+                            <div class="testimony__info">
+                                <h3 class="testimony__name">Fulanita Detal</h3>
+                                <p class="testimony__position">Director de Apple Colombia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimony__card">
+                        <div class="testimony__text">
+                            <img src="img/icons8-logo-de-google-480.svg" class="google__logo">
+                            <p class="testimony__history">“Desde que empezamos a trabajar con Alejandro comenzamos a obtener resultados increíbles. Ahora hemos llegado a un mayor número de clientes potenciales”</p>
+                            <div class="testimony__copy testimony__copy--modifier">
+                                <img src="img/pepito2.jpg" class="testimony__logo logo--picture">
+                                <div class="testimony__info">
+                                    <h3 class="testimony__name">Andres García</h3>
+                                    <p class="testimony__position">Director de Apple México</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Informacion de proyectos exitosos e ingreso de email -->
+
+        <section class="email container container--modifier" >
+            <h2 class="subtitle subtitle--modifier">Somos tu mejor opción para adoptar la transformación digital<span class="point">.</span></h2>
+
+            <p class="copy__section copy__section--modifier">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, et dolore id necessitatibus quibusdam rem accusamus fugiat doloremque voluptatibus eius!</p>
+
+            <div class="check">
+                <div class="check__item">
+                    <i class='bx bx-check' ></i>
+                    <div class="check__numbers">
+                        <p class="check__number">+200</p>
+                        <p class="check__copy">Proyectos exitosos</p>
+                    </div>
+                </div>
+                <div class="check__item">
+                    <i class='bx bx-check' ></i>
+                    <div class="check__numbers">
+                        <p class="check__number">+200</p>
+                        <p class="check__copy">Proyectos exitosos</p>
+                    </div>
+                </div>
+                <div class="check__item">
+                    <i class='bx bx-check' ></i>
+                    <div class="check__numbers">
+                        <p class="check__number">+200</p>
+                        <p class="check__copy">Proyectos exitosos</p>
+                    </div>
+                </div>
+            </div>
+            <form class="newsletter">
+                <input type="text" class="newsletter__input" placeholder="Ingresa tu email">
+                <input type="submit" class="newsletter__submit" value="Comienza hoy">
+            </form>
+        </section>
+    </main>
+<!-- Zona de descarga de APPs, deerechos reservados y legal -->
+    <footer class="footer" id="contacto">
+        <div class="container footer__caption">
+            <section class="download">
+                <h3 class="title__footer">Descarga nuestra App</h3>
+                <div class="download__app">
+                    <div class="download__item">
+                        <i class='bx bxl-apple download__logo' ></i>
+                        <h4 class="download__title">App Store</h4>
+                    </div>
+                    <div class="download__item">
+                        <i class='bx bxl-play-store download__logo' ></i>
+                        <h4 class="download__title">Play Store</h4>
+                    </div>
+                </div>
+                <div class="footer__copy">
+                    <p class="copyright">Alejo. &copy; 2020 Todos los derechos reservados</p>
+    
+                    <a href="#" class="politica__privacidad politica__privacidad--margin">Politica de privacidad</a>
+                    <a href="#" class="politica__privacidad ">Terminos y condiciones</a>
+                </div>
+            </section>
+            <section class="get-email">
+                <h3 class="title__footer">¿Tienes alguna consulta?</h3>
+                <form class="newsletter newsletter--modifier">
+                    <input type="text" class="newsletter__input" placeholder="Ingresa tu email">
+                    <input type="submit" class="newsletter__submit" value="Comienza hoy">
+                </form>
+                <div class="socialmedia">
+                    <p class="socialmedia__legend">Siguenos en:</p>
+                    <i class='socialmedia__icon bx bxl-facebook-circle'></i>
+                    <i class='socialmedia__icon bx bxl-linkedin-square'></i>                                                                                                        
+                    <i class='socialmedia__icon bx bxl-twitter' ></i>   
+                    <i class='socialmedia__icon bx bxl-instagram' ></i>
+                    <i class='socialmedia__icon bx bxl-github' ></i>  
+                </div>
+            </section>
+        </div>
+<!-- Informacion sobre nosotros -->
+        <div class="contact">
+            <div class="item__contact">
+                <i class='bx bx-copyright contact__icon' ></i>
+                <h3 class="contact__title">Alejo.</h3>
+            </div>
+            <div class="item__contact">
+                <i class='bx bx-mail-send contact__icon' ></i>
+                <h3 class="contact__title">prueba@mail.com</h3>
+            </div>
+            <div class="item__contact">
+                <i class='bx bxs-edit-location contact__icon' ></i>
+                <h3 class="contact__title">Bogotá</h3>
+            </div>
+            <div class="item__contact item__contact--gold">
+                <i class='bx bxs-chat contact__icon contact__icon--modifier' ></i>
+                <h3 class="contact__title">Contactame ahora</h3>
+            </div>
+        </div>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    </footer>
+    </main>
+</body>
+</html>
